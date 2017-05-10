@@ -14,9 +14,10 @@
 
 		<style type="text/css">
 			.layeredimagefragments {
-				height: 200px; 
+				/*height: 200px; */
 				width:200px; 
 				position: relative;
+				height: 678px; 
 			}
 
 		    .layeredimagefragments img {
@@ -24,7 +25,19 @@
 		    	position: absolute;
 		    	left: 0px;
 		    	right: 0px;
+		    	height: inherit;
+
+		    	margin: 0 !important;
+		    	background:none !important; 
+		    	border: none !important;
+		    	box-shadow: none !important;
 		    }
+
+
+		    /*.reveal .slide-background video {
+		    	height: 200%; 
+		    }*/
+
 		</style>
 
 		<!-- Printing and PDF exports -->
@@ -67,8 +80,9 @@
 				 <section>
 					<!-- 1 -->
 					 <section data-background-video="lib/vids/interviews.MP4">
-						<p class="fragment">95.1%</p>
-						<p class="fragment">Competition?</p>
+						<p class="fragment">95%</p>
+						<p class="fragment">80%</p>
+					 	<p class="fragment">Tourists get their info online.</p>
 					</section>
 					
 					<!-- 2 -->
@@ -79,29 +93,33 @@
 
 				<!-- WHAT - BUSINESS (150s, 60/60/30) -->
 				 <section>
-					<section>Full graphic</section>
-					<section>Tourists</section>
-					<section data-background-video="lib/vids/ministry.MP4">Ministry of Tourism</section>
-					<section>WiFi Providers</section>
-					<section>Data gathered for *** generates revenue by *** </section>
 					<section class="layeredimagefragments">
-						<img class="fragment" src="http://img14.deviantart.net/42c3/i/2014/022/5/3/flock__o_birds_precut_png_by_fictionchick-d73at2l.png">
-						<img class="fragment" src="https://2.bp.blogspot.com/-vS8Lr6k_YuE/V1uNWqatX7I/AAAAAAAABrA/weFefQ1qjIoTjt8QE2hzwS5KQtOPfY-fQCLcB/s1600/PicsArt_06-11-09.29.12.png">
-						<img class="fragment" src="http://t05.deviantart.net/_CAq54-gCKlgR1dnmTGpuVPJcc4=/300x200/filters:fixed_height(100,100):origin()/pre00/211a/th/pre/i/2015/300/0/d/birds_08____png_stock_by_selunia-d9ejfy1.png">
+						<img src="lib/imgs/businessmodel.png">
+					</section>
+					<section>Tourists</section>
+					<section>WiFi Providers</section>
+					<section data-background-video="lib/vids/ministry.MP4">Ministry of Tourism</section>
+					<section>15.4M ISK  Data gathered for *** generates revenue by *** </section>
+					<section class="layeredimagefragments">
+						<img src="lib/imgs/mynd1.png">
+						<img class="fragment" src="lib/imgs/mynd2.png">
+						<img class="fragment" src="lib/imgs/mynd3.png">
+						<img class="fragment" src="lib/imgs/mynd4.png">
+						<img class="fragment" src="lib/imgs/mynd5.png">
 					</section>
 				</section>
 
 				<!-- HOW - PAGE DESIGN (60s) -->
 				 <section>
-					<section>
+					<section data-background-video="lib/vids/design1.mp4">
 						Sign In Page Design
 						<p class="fragment">v1: Not intrusive enough</p>
 					</section>
-					<section>
+					<section data-background-video="lib/vids/design2.mp4">
 						Sign In Page Design
 						<p class="fragment">v2: Needs ad space</p>
 					</section>
-					<section>
+					<section data-background-video="lib/vids/design3.mp4">
 						Sign In Page Design<br/>
 						v3: Current
 						<p class="fragment">Please log in to "Logn Free WiFi"</p>
